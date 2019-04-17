@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.student.derek0816.MainActivity">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="496dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="7dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:linksClickable="false"
+            android:text="Intent ACTION_VIEW"
+            android:textAlignment="center"
+            android:textColor="#1380f5"
+            android:textSize="35sp"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/cal"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:onClick="cal"
+            android:text="打電話"
+            android:textAlignment="center"
+            android:textColor="#080808"
+            android:textSize="25sp"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/tayo"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:onClick="tayo"
+            android:text="想看tayo"
+            android:textAlignment="center"
+            android:textColor="#080808"
+            android:textSize="25sp"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/cam"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:onClick="cam"
+            android:text="練習拍照"
+            android:textAlignment="center"
+            android:textColor="#080808"
+            android:textSize="25sp"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/paint"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:onClick="paint"
+            android:text="練習畫畫"
+            android:textAlignment="center"
+            android:textColor="#080808"
+            android:textSize="25sp"
+            tools:ignore="HardcodedText" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
